@@ -1,0 +1,12 @@
+### Подготовка плана миграции
+
+POST {{url}}/engine-rest/migration/generate
+Content-Type: application/json
+
+{
+  "sourceProcessDefinitionId": "lottery:1:35ee9a01-ea70-11ee-bd0c-02422e2394c7",
+  "targetProcessDefinitionId": "lottery:2:8d8f4858-ea8d-11ee-bd0c-02422e2394c7"
+}
+
+>>! plan.json
+

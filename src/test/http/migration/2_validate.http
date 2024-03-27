@@ -1,0 +1,6 @@
+#  Валидация плана миграции
+
+POST {{url}}/engine-rest/migration/validate
+Content-Type: application/json
+
+< plan.json

@@ -1,0 +1,17 @@
+server:
+  port: 8899
+application:
+  login:
+  password:
+  lotteryUrl: https://demo.reunico.com/meetup/api/lottery
+  participantsUrl: https://demo.reunico.com/meetup/api/registered-participants
+  numberingUrl: https://demo.reunico.com/meetup/api/numbering
+  notifyUrl: https://demo.reunico.com/meetup/api/notify-participant
+camunda:
+  bpm:
+    client:
+      base-url: http://localhost:8999/engine-rest
+logging:
+  level:
+    org.camunda: DEBUG
+    com.cbr: DEBUG

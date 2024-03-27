@@ -1,0 +1,88 @@
+{
+  "sourceProcessDefinitionId": "lottery:1:35ee9a01-ea70-11ee-bd0c-02422e2394c7",
+  "targetProcessDefinitionId": "lottery:2:8d8f4858-ea8d-11ee-bd0c-02422e2394c7",
+  "instructions": [
+    {
+      "sourceActivityIds": [
+        "Activity_notifyWin"
+      ],
+      "targetActivityIds": [
+        "Activity_notifyWin"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_stop"
+      ],
+      "targetActivityIds": [
+        "Activity_stop"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_notifyFail"
+      ],
+      "targetActivityIds": [
+        "Activity_notifyFail"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Event_timer"
+      ],
+      "targetActivityIds": [
+        "Event_timer"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_numerateParticipants"
+      ],
+      "targetActivityIds": [
+        "Activity_numerateParticipants"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_start"
+      ],
+      "targetActivityIds": [
+        "Activity_start"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_getParticipants"
+      ],
+      "targetActivityIds": [
+        "Activity_getParticipants"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_subLottery#multiInstanceBody"
+      ],
+      "targetActivityIds": [
+        "Activity_subLottery#multiInstanceBody"
+      ],
+      "updateEventTrigger": false
+    },
+    {
+      "sourceActivityIds": [
+        "Activity_subLottery"
+      ],
+      "targetActivityIds": [
+        "Activity_subLottery"
+      ],
+      "updateEventTrigger": false
+    }
+  ],
+  "variables": null
+}
